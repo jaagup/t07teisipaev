@@ -23,3 +23,4 @@ public class Testid1{
       assertEquals('v', laud.kysi("A1"));
    }
 
+}
