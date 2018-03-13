@@ -17,5 +17,9 @@ public class Testid1{
       assertEquals(0, laud.ridaKoodiks('8'));
       assertEquals(7, laud.ridaKoodiks('1'));
    }
-}
+   @Test
+   public void paigutamine(){
+      laud.paiguta("A1", 'v');
+      assertEquals('v', laud.kysi("A1"));
+   }
 
