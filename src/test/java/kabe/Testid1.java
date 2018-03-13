@@ -8,8 +8,9 @@ public class Testid1{
       assertEquals(3, 1+2);
    }
    @Test
-   public void test2(){  
-     assertEquals(5, 2+3);
+   public void test2(){   
+     assertEquals(0, laud.veergKoodiks('A'));
+     assertEquals(7, laud.veergKoodiks('H'));
    }
 }
 
