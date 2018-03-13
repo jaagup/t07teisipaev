@@ -9,7 +9,7 @@ public class Testid1{
    }
    @Test
    public void test2(){ 
-   
+     assertEquals(4, 2+2);
    }
 }
 
