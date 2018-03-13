@@ -8,7 +8,7 @@ public class Testid1{
       assertEquals(3, 1+2);
    }
    @Test
-   public void test2(){ 
+   public void test2(){  
      assertEquals(4, 2+2);
    }
 }
