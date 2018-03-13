@@ -4,4 +4,5 @@ public interface KabeLaud{
    public int ridaKoodiks(char rida); //8->0, 1->7
    public void paiguta(String asukoht, char sisu);
    public char kysi(String asukoht);
+   public void algseis();
 }
