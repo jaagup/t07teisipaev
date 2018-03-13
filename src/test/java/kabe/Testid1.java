@@ -15,6 +15,7 @@ public class Testid1{
    @Test
    public void reaKoodiTest(){
       assertEquals(0, laud.ridaKoodiks('8'));
+      assertEquals(7, laud.ridaKoodiks('1'));
    }
 }
 
