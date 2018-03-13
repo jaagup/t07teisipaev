@@ -12,5 +12,9 @@ public class Testid1{
      assertEquals(0, laud.veergKoodiks('A'));
      assertEquals(7, laud.veergKoodiks('H'));
    }
+   @Test
+   public void reaKoodiTest(){
+      assertEquals(0, laud.ridaKoodiks('8'));
+   }
 }
 
