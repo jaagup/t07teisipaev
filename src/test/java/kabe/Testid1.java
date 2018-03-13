@@ -7,5 +7,9 @@ public class Testid1{
    public void test1(){
       assertEquals(3, 1+2);
    }
+   @Test
+   public void test2(){
+   
+   }
 }
 
